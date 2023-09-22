@@ -20,7 +20,7 @@ public class Main {
         String gendate=scanner.nextLine();
 
         int basicPay=days*payrate;
-        System.out.print(basicPay);
+        // System.out.print(basicPay);
         int pf=basicPay/10;
        final double proftax=0.2*basicPay;
         double totalDeduct= proftax+pf;
