@@ -48,13 +48,13 @@ public class Bankccount{
      class Account { 
          public static void main(String[] args) { 
              System.out.println("SAVING ACCOUNT DETAILS"); 
-             SavingsAccount sac = new SavingsAccount(1, "Ann Kamau", "072392020", "kakai@gmail.com", 1000); 
+             SavingsAccount sac = new SavingsAccount(1, "gitahi k", "0726289270", "aheuiwbs@gmail.com", 1000); 
              sac.accountholder(); 
              sac.deposit(500); 
              sac.displayBalance(); 
   
              System.out.println("\nCURRENT ACCOUNT DETAILS"); 
-             CurrentAccount cac = new CurrentAccount(2, "Anerico kakai", "0748492026", "kakai@gmail.com", 10); 
+             CurrentAccount cac = new CurrentAccount(2, "Festus Gitahi", "0712372478", "festus@gmail.com", 10); 
              cac.accountholder(); 
              cac.deposit(300); 
              cac.displayBalance(); 
